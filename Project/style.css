@@ -243,12 +243,22 @@ main .main_about{
     margin-left: 5%;
     }
     header{
-        width: 800px;
+        width: 100%;
     }
     main .main_welcome{
         width: 800px;
         height: 200px;
         text-align: center;
+    }
+    .main_team h1{
+        font-size: 34px;
+    }
+    .line{
+        width: 85px;
+        margin-left: -10px;
+    }
+    .team_cards{
+        
     }
     .MPT{
         margin-top: 100px;
@@ -257,11 +267,40 @@ main .main_about{
         height: 800px;
         width: 200px;
     }
+    .card{
+        height: 100%;
+        width: 125px;
+    }
+    .team_cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    .name{
+        font-size: 15px;
+    }
+    .position{
+        font-size: 12px;
+    }
+    .about_positionn{
+    
+        font-size: 10px;
+    }
+    .main_team{
+        margin-top: -50px;
+    }
+    .header_logo p{
+        font-size: 20px;
+        width: 200%;
+        text-align: center;
+    }
+    
+
 }
     @media only screen and (min-device-width:
     480px) and (max-device-width: 1009px) and (-webkit-min-device-pixel-ratio: 2){
     header{
-        width: 1060px;
+        width: 100%;
     }
 
     main .main_welcome{
@@ -276,5 +315,24 @@ main .main_about{
     }
     .containner{
         height: 1100px;
+    }
+    .main_team{
+        height: 100%;
+        width: 100%;
+    }
+    .card{
+        height: 100%;
+        width: 50px;
+    }
+    .position{
+        height: 25px;
+        width: 100px;
+    }
+    .about_positionn{
+        height: 70px;
+        width: 100px;
+    }
+    .name{
+        font-size: 120%;
     }
 }
